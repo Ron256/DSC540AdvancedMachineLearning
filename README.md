@@ -2,7 +2,7 @@
 Depaul Advanced Machine Learning class taken from Jan 3 2022 to March 20 2022.
 
 Home Work Project 1: 
-We used the Breast Cancer Wisconsin dataset from the uci archive website to load it into pandas where I had to investigate the column types, check the statistical summary of numerical features with a goal determining the variables with the largest and smallest values. I derived a correlation heatmap, which helped to determine any largely correlated variables. I went a head to use sklearn's tran_test_split() function to create the split of the dataset.
+I used the Breast Cancer Wisconsin dataset from the uci archive website to load it into pandas where I had to investigate the column types, check the statistical summary of numerical features with a goal determining the variables with the largest and smallest values. I derived a correlation heatmap, which helped to determine any largely correlated variables. I went a head to use sklearn's tran_test_split() function to create the split of the dataset.
 I initiated the Gaussian Naive Bayes and logistic regression classifiers:
 - to fit the model
 - make predictions
