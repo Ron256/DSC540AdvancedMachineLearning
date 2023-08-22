@@ -21,6 +21,39 @@ In the last part of this home work project, I implemented feature engineering wh
 Home Work Project 2:
 I explored the publicly available data from LendingClub.com.
 
+This dataset is from LendingClub before it went public.
+
+The lending data from 2007 to 2010 was used to classify and predict whether or not the borrower paid back their loan in full.
+
+Home Work Project 3:
+I analyzed CO and NOX gas emissions from a power plant. 
+
+I predicted CO using all other variables through:
+- linear regression.
+- Support Vector Regression
+- Random Forest Regression 
+
+Measured the model's performed using R-Squared and RMSE.
+
+Used GridSearchCV to tune the different hyper-parameters.
+
+Applied PCA to transform the data.
+
+Used the PCA transformed data to perform regression with hyper parameters tuning using the models:
+- Linear Regression
+- Random Forest Regression
+- RBF Kernel Support Vector Regression
+
+Lastly, we converted CO target values into binary form by comparing them to a threshold. 0 - 3mg/m^3 was the range of max 8 hour avg used. This was done to facilitate classification. 
+
+Home Work Project 4:
+This home work was about using Bayesian analysis to estimate the market share for a new drug. 
+
+We also analyzed medical diagnosis using Bayes Nets. 
+
+
+
+
 The group project sought to classify customers into those who would or would not accept the marketing campaign. Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively. The original dataset included 2,240 observations and 29 columns.
 
 We conducted data exploration, data visualization, and preprocessing to clean the data, including examining and addressing missing values and outliers.
